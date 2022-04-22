@@ -1,0 +1,116 @@
+<h1>Controles</h1>
+
+<h2>Nuevos controles de HTML 5</h2>
+<p>Esta página muestra los nuevos tipos de elementos 
+    Input de HTML 5 y sus principales atributos</p>
+
+    <h3>Input Color</h3>
+    <label for="Input_Color">Selecciona un color</label><br>
+    <small>En este campo se debe seleccionar un color</small><br>
+    <input type="color" name="Input_Color" id="Input_Color" class="" value="#197bb8">
+
+    <hr>
+    <label for="Input_FechaLocal">Selecciona una fecha y hora</label><br>
+    <small>Registra la fecha y hora con el formato YYYY-MM-ddThh:mm:ss</small><br>
+    <input type="datetime-local" name="Input_FechaLocal" id="" value="1996-08-28T02:00">
+
+    <hr>
+    <form>
+        <label for="Input_Correo">Captura un correo</label><br>
+        <input type="email" 
+            placeholder="Ingresa un correo Ej. correo@domain.com" 
+            name="Input_Correo"
+            required>
+        <input type="submit">
+    </form>
+
+    <hr>
+    <label for="Input_Month">Captura un mes</label><br>
+    <input type="month" name="Input_Month" id="" value="2022-04">
+
+    <hr>
+    <label for="Input_Number">Captura un numero</label><br>
+    <input type="number" min="0" max="100" value="50" step="1">
+    
+    <hr>
+    <label for="Input_Rango">Captura un rango</label><br>
+    <input type="range" name="Input_Rango" id="" min="0" 
+        max="100" value="50" step="1">
+
+    <hr>
+    <label for="Input_Week">Captura una semana (aaaa-wnn)</label><br>
+    <input type="week" value="2022-w13" name="" id="">
+
+    <hr>
+    <label for="Input_O">Texto libre</label>
+    <input type="text" name="" id="">
+
+    <hr>
+    <label for="Input_O">Opciones</label>
+    <select name="" id="">
+        <option value="">Item 1</option>
+        <option value="">Item 2</option>
+    </select>
+    <hr>
+    <select name="" id="" multiple>
+        <option value="">Item 1</option>
+        <option value="">Item 2</option>
+    </select>
+    
+    <hr>
+    <label for="Input_F">Femenino</label>
+    <input type="radio" name="genero" id="">
+    <label for="Input_M">Masculino</label>
+    <input type="radio" name="genero" id="">
+
+    <hr>
+    <label for="Input_Ed1">Primaria</label>
+    <input type="checkbox" name="" id="">
+    <label for="Input_Ed3">Secundaria</label>
+    <input type="checkbox" name="" id="">
+    <label for="Input_Ed3">Universitaria</label>
+    <input type="checkbox" name="" id="">
+    
+    <hr>
+    <label for="url">Enter an https:// URL:</label>
+
+<input type="url" name="url" id="url"
+       placeholder="https://example.com"
+       pattern="https://.*" size="30"
+       required><hr>
+
+       <label for="avatar">Choose a profile picture:</label>
+
+<input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg">
+
+       <hr>
+       <fieldset>
+        <legend>Pokemon favorito</legend>
+    
+        <input type="radio" id="kraken" name="monster">
+        <label for="kraken">Bulbasor</label><br/>
+    
+        <input type="radio" id="sasquatch" name="monster">
+        <label for="sasquatch">Charmander</label><br/>
+    
+        <input type="radio" id="mothman" name="monster">
+        <label for="mothman">Vamo a portarno mal</label>
+    </fieldset>
+    <hr>
+    <label for="file">Progeso en carrera TDW:</label>
+
+<progress id="file" max="100" value="30"> 30% </progress>
+
+<hr>
+
+<style>
+    #Area_Texto{
+        max-width: 300px;
+        max-height: 300px;
+    }
+</style>
+<textarea name="" id="Area_Texto" cols="30" rows="10" minlength="50" 
+    maxlength="200"></textarea>
+

@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+}
+#Area_Contenido{
+    width : 100%;
+    height:  calc(100vh - 120px);
+}
+ul{
+    list-style: none;
+}
+li a{
+    color: rgb(64, 102, 59);
+    text-decoration: none;
+}
+
+li a:hover{
+    color: green;
+}
+li a:active{
+    color: orange;
+}

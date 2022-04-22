@@ -1,0 +1,46 @@
+.Cuadro{
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
+#Transicion1{
+    transition-timing-function: ease;
+}
+
+#Transicion1:hover{
+    width: 300px;
+    transition: width 5s ;
+}
+
+#Transicion2{
+    transition-timing-function: ease-in;
+}
+
+#Transicion2:hover{
+    width: 300px;
+    height: 300px;
+    transition: width 2s, height 5s;
+}
+
+#Transicion3{
+    transition-timing-function: ease-out;
+}
+
+
+#Transicion3:hover{
+    width: 300px;
+    transition: width 3s;
+    transition-delay: 3s;
+}
+ 
+#transicion4:hover{
+height: 300px;
+width: 300px;
+transform: rotate(45deg);
+}
+
+#Transicion4 img:hover{
+    height: 300px;
+} 

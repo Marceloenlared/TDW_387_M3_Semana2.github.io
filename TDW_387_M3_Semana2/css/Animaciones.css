@@ -1,0 +1,72 @@
+ #Parrafo_1{
+    background-color: rgb(23, 146, 84);
+    animation-duration: 7s;
+    animation-name: Animacion1;
+}
+
+@keyframes Animacion1 {
+    from{
+        margin-left: 110%;
+        width: 200%;
+    }
+    to{
+        margin-left: 1%;
+        width: 99%;
+    }
+}
+
+#Parrafo_2{
+    animation-duration: 3s;
+    animation-name: Animacion2;
+}
+
+@keyframes Animacion2 {
+    from{
+        margin-left: 90%;
+        width: 200%;
+    }
+    to{
+        margin-left: 10%;
+        width: 90%;
+    }
+    75%{
+        font-size: 350%;
+        margin-left: 25%;
+        width: 170%;
+    }
+}
+
+#Parrafo_3{
+    animation-duration: 10s;
+    animation-name: Animacion3;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Animacion3 {
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+#Parrafo_4{
+    animation-duration: 20s;
+    animation-name: Animacion4;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes Animacion4 {
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}

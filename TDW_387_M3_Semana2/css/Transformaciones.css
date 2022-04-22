@@ -1,0 +1,36 @@
+#Transformacion1{
+    width: 800px;
+    height: 100px;
+    background-image: url("/images/img_02.gif");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Transformacion1:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(270deg);
+}
+
+#Transformacion1 img:hover{
+    height: 300px;
+}
+
+.icon{
+    transition: 1s;
+    height: 100px;
+    width: 100px;
+}
+
+.icon:hover{
+    transform: scale(4.0);
+}
+
+.Reflejo{
+    height: 100px;
+}
+
+.Reflejo:hover{
+    -webkit-box-reflect: right;
+}
